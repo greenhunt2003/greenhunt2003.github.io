@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+.logo {
+    border: 1px solid black;
+    height: 130px;
+	background-color: #b3ffc7;
+	background-image: linear-gradient(#ffffff, #b3ffc7);
+	font-family: "Agency FB", Arial;
+	font-size: 100px;
+	text-align: center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.logo a {
+	text-decoration: none;
+	color: #000000;
+}
+.navigation {
+    border: 1px solid black;
+}
+.navigation a {
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main_content {
+    border: 1px solid black;
+    height: 500px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.footer {
+    border: 1px solid black;
+	line-height: 35px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
