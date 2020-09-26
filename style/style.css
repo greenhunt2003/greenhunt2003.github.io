@@ -27,8 +27,8 @@ body {
 }
 .main_content {
     border: 1px solid black;
-    height: 500px;
-	padding-left: 10px;
+    height: 100%;
+	  padding-left: 10px;
     padding-right: 10px;
 }
 .footer {
