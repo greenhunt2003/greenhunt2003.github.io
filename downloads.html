@@ -19,7 +19,7 @@
         background-color: #000000;
         color: #fff;
       }
-      .lockedbutton {
+      .disabledbutton {
         background-color: grey;
         color: #000;
         padding: 15px 32px;
@@ -46,13 +46,11 @@
       <p>This page contains a list of apps and files you can use.</p>
       <h3>Stick Figure Character Design Template</h3>
       <p>Use this template as a blueprint for creating characters in Stick Figure Form. Requires Microsoft PowerPoint or Google Slides to work.</p>
-      <form action="downloads/Stickfigure Character Design Template (PowerPoint).pptx">
-        <button class="downloadbutton">Download Template</button>
-      </form>
+      <button class="downloadbutton" onclick="window.location = 'downloads/Stickfigure Character Design Template (PowerPoint).pptx'">Download Template</button>
       <h3>ghBot</h3>
-      <p>A Discord Chat Bot that can do anything. Written in Python.</p>
-      <button class="lockedbutton" onclick="alert('This app is not available for release yet. Stay tuned!')"><strike>Invite this bot to your server</strike></button>
-      <button class="lockedbutton" onclick="alert('This app is not available for release yet. Stay tuned!')"><strike>View source code</strike></button>
+      <p>A Discord Chat Bot that can includes features such as the ability to generate text documents, view your latency, calculate numbers and roll a dice. Written in Python.</p>
+      <button class="downloadbutton" onclick="window.location = 'https://discord.com/api/oauth2/authorize?client_id=760516268784353370&permissions=8&scope=bot'">Invite this bot to your server (Current version: Beta 1.32)</button>
+      <button class="disabledbutton" onclick="alert('The source code for this application is not available yet. Sorry for the inconvenience.')"><strike>View source code</strike></button>
 		</div><br>
 		<div class="footer">
 			Copyright <span id="current_year"></span> by greenhunt2003.
