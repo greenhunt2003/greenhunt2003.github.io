@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="style/style.css" type="text/css">
 		<link rel="icon" href="images/greenhunt2003 Channel Icon.png" type="image/png">
     <style type="text/css">
-      .downloadbutton {
+      .button {
         background-color: chartreuse;
         color: #000;
         padding: 15px 32px;
@@ -15,19 +15,16 @@
         font-size: 12px;
         margin: 4px 2px;
       }
-      .downloadbutton:hover {
+      .button:hover {
         background-color: #000000;
         color: #fff;
       }
-      .disabledbutton {
-        background-color: grey;
+      .button:disabled {
+        background-color: #f1f1f1;
+      }
+      .button:disabled:hover {
         color: #000;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 12px;
-        margin: 4px 2px;
+        cursor: not-allowed;
       }
     </style>
 		<title>Welcome to greenhunt2003!</title>
@@ -46,8 +43,8 @@
       <p>This page contains a list of apps and files you can use.</p>
       <h3>ghBot</h3>
       <p>A Discord Chat Bot that includes features such as the ability to generate text documents, view your latency, calculate numbers and roll a dice. Written in Python.</p>
-      <button class="downloadbutton" onclick="window.location = 'https://discord.com/api/oauth2/authorize?client_id=760516268784353370&permissions=8&scope=bot'">Invite this bot to your server (Current version: Beta 1.32)</button>
-      <button class="disabledbutton" onclick="alert('The source code for this application is not available yet. Sorry for the inconvenience.')"><strike>View source code</strike></button>
+      <button class="button" onclick="window.location = 'https://discord.com/api/oauth2/authorize?client_id=760516268784353370&permissions=8&scope=bot'">Invite this bot to your server (Current version: Beta 1.32)</button>
+      <button class="button" disabled>View source code (not available for release yet)</button>
 		</div><br>
 		<div class="footer">
 			Copyright <span id="current_year"></span> by greenhunt2003.
