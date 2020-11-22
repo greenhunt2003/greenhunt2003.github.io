@@ -1,7 +1,6 @@
 ghBot Release Notes
 
-Current version: Beta 1.87
+Current version: Beta 1.90
 
-Improvements and additions:
-* Added some improvements to the error generator and the text document generator by improving the parameters.
-* Modified some responses in 8 Ball. Some responses are removed, some responses are added.
+Changes:
+* Removed the dice and 8 ball feature from ghBot as I thought they would be too easy to make and they are unnecessary features. From now on, I will only include features that suit best for this bot.
