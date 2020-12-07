@@ -3,4 +3,4 @@ ghBot Release Notes
 Current version: Beta 1.89
 
 Changes:
-* Removed the dice and 8 ball feature from ghBot as I thought they would be too easy to make and they are unnecessary features. From now on, I will only include features that suit best for this bot.
+* Removed the calculator, dice and 8 ball feature from ghBot as I thought they would be too easy to make and they are unnecessary features. From now on, I will only include features that suit best for this bot.
