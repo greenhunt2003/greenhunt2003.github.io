@@ -26,6 +26,7 @@ body {
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
+  border: none;
 }
 .button:hover {
   background-color: #000000;
